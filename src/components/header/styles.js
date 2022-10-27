@@ -1,5 +1,5 @@
 import {styled} from '../../styles'
-import { Cointainer } from '../../styles/global'
+import { Container } from '../../styles/global'
 
 export const HeaderStyle =styled("header", {
     position: 'absolute',
@@ -10,7 +10,7 @@ export const HeaderStyle =styled("header", {
     display: 'flex',
     alignItems: 'center',
     zIndex: 99,
-    [`${Cointainer}`]: {
+    [`${Container}`]: {
         height: '100%',
         borderLeft: '1px solid rgba(255, 255, 255, 0.2);',
         borderRight: '1px solid rgba(255, 255, 255, 0.2);',

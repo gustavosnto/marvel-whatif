@@ -24,7 +24,7 @@ export const globalStyles = globalCss({
     }
 });
 
-export const Cointainer = styled("div", {
+export const Container = styled("div", {
     width: '100%',
     maxWidth: 1216,
     margin: '0 auto',

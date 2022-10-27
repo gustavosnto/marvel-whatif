@@ -3,11 +3,11 @@ import Link from 'next/link'
 import Logo from '../../images/marvel-logo.png'
 import LogoCodeboost from '../../images/codeboost.svg'
 import { HeaderStyle } from './styles'
-import { Cointainer } from '../../styles/global'
+import { Container } from '../../styles/global'
 
 export function Header() {
     return <HeaderStyle>
-        <Cointainer>
+        <Container>
             <div className="logo">
                 <Link href="/">
                     <Image src={Logo} alt="Logo Marvel Studios" />
@@ -16,6 +16,6 @@ export function Header() {
             <div className="code">
                 <Image src={LogoCodeboost} alt="Logo CodeBoost" />
             </div>
-        </Cointainer>
+        </Container>
     </HeaderStyle>
 }
